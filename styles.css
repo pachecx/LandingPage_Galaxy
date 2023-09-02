@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.6rem;
+    background: #121214;
+}
+
+main{
+    height: 100vh;
+    width: 100%;
+    padding: 2.5rem;
+    margin: auto;
+}
+
+.Main h1{
+    color: #02799D;
+    font-size: 2.6rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.Main span{
+    color: #E1E1E6;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.cards{
+    background:#202024;
+    border-radius: 8px;
+    margin-top: 2.6rem;
+    max-width: 32.5rem;
+}
+
+.card{
+    border: 2px solid #323238;
+    border-radius: 8px;
+    max-width: 32.5rem;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.text h3{
+    color: #E1E1E6;
+    font-size: 2rem;
+    margin-bottom: 1.2rem;
+}
+
+.text{
+    padding: 1.2rem;
+    color: #C4C4CC;
+}
+
+.text p{
+    font-family: 'Mulish';
+    font-weight: 600;
+    font-size: 1.9rem;
+
+}
+
+@media(min-width: 768px){
+
+    .Main h1{
+        font-size: 4.8rem;
+        font-weight: 900;
+        margin-top: 3rem;
+    }
+
+    .Main span{
+        font-size: 2.2rem;
+        font-weight: 600;
+    }
+
+    .all-cards{
+        display: grid;
+        grid-template-columns: repeat(2, 36.9rem);
+        grid-template-rows: repeat(2, auto);
+        margin-top: 4.3rem;
+    }
+
+    .cards, .card{
+        width: 30.6rem;
+        height: 44.8rem;
+    }
+}
+
+@media(min-width: 1020px){
+
+    .Main{
+        margin:auto;
+        width: 80%;
+    }
+
+    .Main h1{
+        font-size: 5.8rem;
+        font-weight: 900;
+        margin-top: 3rem;
+    }
+
+    .Main span{
+        font-size: 3.2rem;
+        font-weight: 600;
+    }
+
+    .all-cards{
+        display: grid;
+        grid-template-columns: repeat(2, 36.9rem);
+        grid-template-rows: repeat(2, auto);
+        margin-top: 4.3rem;
+    }
+}
+
+@media(min-width: 1030px){
+    
+    .Main{
+        margin:auto;
+        width: 80%;
+    }
+
+    .Main h1{
+        font-size: 5.8rem;
+        font-weight: 900;
+        margin-top: 3rem;
+    }
+
+    .Main span{
+        font-size: 3.2rem;
+        font-weight: 600;
+    }
+
+    .all-cards{
+       display: grid;
+       grid-template-columns: repeat(3, 36.9rem);
+       grid-template-rows: repeat(2, auto);
+       margin-top: 4.3rem;
+    }
+
+    .cards, .card{
+        width: 36.6rem;
+        height: 44.8rem;
+    }
+}
